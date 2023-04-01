@@ -1,0 +1,22 @@
+<h2>Simulador da prova de IHC</h2>
+<div class="container">
+<ol>
+    <li class="pergunta question" *ngFor="let pergunta of perguntasAleatorias">
+        {{ pergunta.texto }}
+        <ul>
+          <li class="answer" *ngFor="let alternativa of pergunta.alternativas; let i = index">
+            <label>
+              <input type="radio" name="pergunta{{ pergunta.id }}" [(ngModel)]="pergunta.selectedOption" [value]="i">
+              {{ alternativa }}
+            </label>
+          </li>
+        </ul>
+      </li>
+</ol>
+</div>
+
+  
+
+<button class="check" (click)="verificarRespostas()">Verificar respostas</button>
+<button type="button" class="newquestions" (click)="gerarPerguntas()">Gerar novas perguntas</button>
+<button type="button" class="newquestions1" (click)="gerarPerguntas1()">Gerar apenas 1 pergunta</button>

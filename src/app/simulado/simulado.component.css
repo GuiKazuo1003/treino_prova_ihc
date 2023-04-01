@@ -1,0 +1,68 @@
+
+.pergunta {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #999797;
+    background-color: hsl(0, 45%, 88%);
+    width: 65%;
+    margin-right: auto;
+  }
+  h2 {
+    width: 200px;
+    height: 30px;
+    margin-left: 23%;
+  }
+  button{
+    border-radius: 5%;
+    background-color: blue;
+    color: white;
+    border: 5px;
+    width: 100px;
+    height: 40px;
+  }
+  button.check:hover{
+    background-color: green;
+    cursor: pointer;
+  }
+  button.newquestions:hover{
+    background-color: purple;
+    cursor: pointer;
+  }
+  button.newquestions1:hover{
+    background-color: yellow;
+    cursor: pointer;
+  }
+  .newquestions{
+    border-radius: 5%;
+    background-color: rgb(231, 15, 15);
+    color: white;
+    border: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 60%;
+  }
+  .newquestions1{
+    border-radius: 5%;
+    background-color: rgb(231, 137, 15);
+    color: rgb(0, 0, 0);
+    border: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 480px) {
+    .pergunta {
+        margin-bottom: 5%; /* Margem inferior de 5% do tamanho da tela */
+        padding: 2%; /* Preenchimento interno de 2% do tamanho da tela */
+        border: 1px solid #ccc;
+        background-color: hsl(0, 0%, 96%);
+        margin-right: auto;
+        margin-bottom: 5%; /* Margem inferior de 5% do tamanho da tela */
+        padding: 2%;
+      }
+      .alternativa {
+        padding: 2%; /* Preenchimento interno de 2% do tamanho da tela */
+      }
+      
+  }
