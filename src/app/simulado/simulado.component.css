@@ -54,15 +54,17 @@
   @media only screen and (max-width: 480px) {
     .pergunta {
         margin-bottom: 5%; /* Margem inferior de 5% do tamanho da tela */
-        padding: 2%; /* Preenchimento interno de 2% do tamanho da tela */
+        padding: 10%; /* Preenchimento interno de 2% do tamanho da tela */
         border: 1px solid #ccc;
-        background-color: hsl(0, 0%, 96%);
-        margin-right: auto;
+        background-color: hsl(0, 45%, 88%);
         margin-bottom: 5%; /* Margem inferior de 5% do tamanho da tela */
-        padding: 2%;
+        margin: 0 auto;
       }
       .alternativa {
         padding: 2%; /* Preenchimento interno de 2% do tamanho da tela */
       }
-      
+      h2{
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
   }

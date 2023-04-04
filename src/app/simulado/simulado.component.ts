@@ -22,7 +22,7 @@ export class SimuladoComponent implements OnInit {
       'IHC é uma técnica utilizada para desenvolver sistemas de inteligência artificial.',
       'IHC é o design, a avaliação e a implementação de sistemas computacionais interativos para uso humano e como estudo de fenômenos importantes que o rodeiam.',
       'IHC é uma técnica de análise de dados para entender o comportamento humano em ambientes virtuais.'],
-      resposta: 1 // B - 2
+      resposta: 2 // C - 3
     },
     {
       id: 2,
@@ -130,7 +130,7 @@ export class SimuladoComponent implements OnInit {
       'É um processo com três atividades básicas: análise, síntese e avaliação.',
       'Os elementos chave de um pitch focado em UX incluem uma descrição clara e sucinta do problema do usuário que o produto ou ideia resolve, um resumo das soluções existentes e como o produto ou ideia se diferencia, uma demonstração de como o produto ou ideia atende às necessidades do usuário e uma visão geral da estratégia de UX para garantir a satisfação do usuário.',
       'Os elementos chave de um pitch focado em UX incluem uma descrição clara e detalhada do produto ou ideia, com foco no visual e aparência, uma demonstração de como o produto é visualmente atraente e um destaque para o quão bonito o design é. Não é necessário incluir informações detalhadas sobre a função do produto, desde que o design seja esteticamente atraente.'],
-      resposta: 3 // D - 4
+      resposta: 2 // C - 3
     },
     {
       id: 14,
@@ -139,7 +139,7 @@ export class SimuladoComponent implements OnInit {
       'O objetivo principal de um pitch focado em UX é convencer os usuários a comprar o produto, independentemente da qualidade da experiência do usuário.',
       'O objetivo principal de um pitch focado em UX é impressionar os investidores com gráficos e imagens sofisticadas, em vez de realmente apresentar uma experiência de usuário aprimorada.',
       'O objetivo principal de um pitch focado em UX é criar uma história emocionante em torno do produto, sem se preocupar com a efetividade da experiência do usuário.'],
-      resposta: 3 // D - 4
+      resposta: 0 // A - 1
     },
     {
       id: 15,
@@ -147,7 +147,7 @@ export class SimuladoComponent implements OnInit {
       alternativas: ['A maneira mais eficaz de tornar um pitch focado em UX mais eficaz é não se preocupar em preparar o pitch com antecedência e improvisar no momento.',
       'O objetivo principal de um pitch focado em UX é descrever os recursos e benefícios do produto sem mencionar a experiência do usuário.',
       'O objetivo principal de um pitch focado em UX é vender uma ideia sem se importar com a experiência do usuário.',
-      'O objetivo principal de um pitch focado em UX é persuadir investidores, parceiros de negócios ou outros stakeholders de que o produto ou ideia oferece uma experiência do usuário superior e, portanto, tem um grande potencial de sucesso.'],
+      'Um pitch focado em UX pode ser mais eficaz se incluir estudos de caso, dados de usuário, demonstrações interativas, protótipos de alta fidelidade e depoimentos de usuários satisfeitos para mostrar o valor do produto ou ideia.'],
       resposta: 3 // D - 4
     },
     {
@@ -244,10 +244,10 @@ export class SimuladoComponent implements OnInit {
       id: 26,
       texto: 'Como o mapa de empatia da UX pode ajudar a equipe a tomar decisões de design?',
       alternativas: ['O mapa de empatia da UX pode ajudar a equipe a tomar decisões de design informadas, baseadas em insights sobre as necessidades e desejos dos usuários.',
-      'O mapa de empatia da UX pode ser usado para identificar os concorrentes e suas estratégias de design.      ',
+      'O mapa de empatia da UX pode ajudar a equipe a tomar decisões de design informadas, baseadas em insights sobre as necessidades e desejos dos usuários.',
       'O mapa de empatia da UX pode ser usado para criar um plano de marketing para o produto ou serviço.      ',
       'O mapa de empatia da UX pode ser usado para identificar as necessidades e desejos dos usuários e para projetar uma experiência de usuário mais satisfatória.'],
-      resposta: 0 // A - 1
+      resposta: 1 // B - 2
     },
     {
       id: 27,
@@ -356,6 +356,24 @@ export class SimuladoComponent implements OnInit {
       'O BMC é exclusivamente voltado para a estratégia de negócios da empresa, enquanto a UX é focada apenas no design e usabilidade de produtos e serviços.',
       'A UX é responsável apenas pela criação de interfaces visuais, enquanto o BMC se preocupa com o desenvolvimento de todo o modelo de negócios da empresa.'],
       resposta: 0 // A - 1
+    },
+    {
+      id: 39,
+      texto: 'Porquê é importante o desenvolvimento de protótipos na IHC?',
+      alternativas: ['Protótipos são uma perda de tempo e dinheiro, pois exigem muito esforço para criar e não fornecem valor real para o produto final.',
+      'É um processo com três atividades básicas: análise, síntese e avaliação.',
+      'Desenvolver protótipos não é importante na IHC, pois os designers podem simplesmente visualizar a interface em suas mentes e criar diretamente o produto final.',
+      'Protótipos são úteis apenas para projetos de alta complexidade ou para equipes grandes, mas não são necessários para projetos menores ou para designers individuais.'],
+      resposta: 1 // B - 2
+    },
+    {
+      id: 40,
+      texto: 'Como a Estrutura de custos é importante no BMC?',
+      alternativas: ['A estrutura de custos é irrelevante no BMC, pois o que realmente importa é a proposta de valor e os canais de distribuição.',
+      'É possível ignorar completamente a estrutura de custos no BMC, pois os custos podem ser gerenciados à medida que surgirem durante a execução do projeto.',
+      'A Estrutura de custos ajuda a definir como a empresa gasta dinheiro e quais são os custos mais importantes para o seu negócio.',
+      'A Estrutura de custos é irrelevante no BMC, uma vez que os custos podem ser calculados posteriormente com base nos resultados financeiros da empresa.'],
+      resposta: 2 // C - 3
     }
   ];
 

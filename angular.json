@@ -91,6 +91,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/treino_prova_ihc/"
+          }
         }
       }
     }
