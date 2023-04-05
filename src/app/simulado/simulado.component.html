@@ -20,3 +20,15 @@
 <button class="check" (click)="verificarRespostas()">Verificar respostas</button>
 <button type="button" class="newquestions" (click)="gerarPerguntas()">Gerar novas perguntas</button>
 <button type="button" class="newquestions1" (click)="gerarPerguntas1()">Gerar apenas 1 pergunta</button>
+<!-- botão para exibir/ocultar as respostas -->
+<button (click)="alternarRespostas()">Exibir respostas</button>
+
+<!-- lista de perguntas e respostas -->
+<ng-container *ngIf="exibirRespostas">
+  <ol>
+    <li *ngFor="let pergunta of perguntas.slice(0,12)">
+      <strong>{{ pergunta.texto }}</strong>
+      <p>Resposta correta: {{ pergunta.resposta === 0 ? 'A' : pergunta.resposta === 1 ? 'B' : pergunta.resposta === 2 ? 'C' : 'D' }}</p>
+    </li>
+  </ol>
+</ng-container>

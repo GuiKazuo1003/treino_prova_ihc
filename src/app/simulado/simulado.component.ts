@@ -377,6 +377,15 @@ export class SimuladoComponent implements OnInit {
     }
   ];
 
+  exibirRespostas = false;
+
+
+// método que exibe ou oculta as respostas
+alternarRespostas(): void {
+  this.exibirRespostas = !this.exibirRespostas;
+}
+
+
   perguntasAleatorias: Pergunta[] = [];
 
   ngOnInit(): void {
